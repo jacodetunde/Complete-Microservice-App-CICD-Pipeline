@@ -2,10 +2,10 @@
 
 ## CICD Applications setup
 1) ###### GitHub setup
-    Fork GitHub Repository by using the existing repo "jjtech-ci-cd-pipeline-project-k8s" (https://github.com/anselmenumbisia/jjtech-ci-cd-pipeline-project-k8s.git)     
+    Fork this GitHub Repository by using the existing repo (https://github.com/jacodetunde/Complete-Microservice-App-CICD-Pipeline.git)     
     - Go to GitHub (github.com)
     - Login to your GitHub Account
-    - **Fork repository "jjtech-ci-cd-pipeline-project-k8s" (https://github.com/anselmenumbisia/jjtech-ci-cd-pipeline-project-k8s.git)**
+    - **Fork repository "jjtech-ci-cd-pipeline-project-k8s" (https://github.com/jacodetunde/Complete-Microservice-App-CICD-Pipeline.git)**
     - Clone your newly created repo to your local
 
 
@@ -15,7 +15,7 @@
     - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
     - **Attach Jenkins server with IAM role having "AdministratorAccess"**
-    - User data (Copy the following user data): https://github.com/cvamsikrishna11/devops-fully-automated/blob/installations/jenkins-maven-ansible-setup.sh
+    - User data (Copy the following user data): https://github.com/jacodetunde/DevOps-installations/blob/main/jenkins-maven-ansible-setup.sh
     - Launch Instance
     - After launching this Jenkins server, attach a tag as **Key=Application, value=jenkins**
 
@@ -24,7 +24,7 @@
     - Instance type: t2.medium
     - Security Group (Open): 9000, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/cvamsikrishna11/devops-fully-automated/blob/installations/sonarqube-setup.sh
+    - User data (Copy the following user data): https://github.com/jacodetunde/DevOps-installations/blob/main/prometheus-setup.sh
     - Launch Instance
 
 4) ###### Nexus
@@ -32,7 +32,7 @@
     - Instance type: t2.medium
     - Security Group (Open): 8081, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/cvamsikrishna11/devops-fully-automated/blob/installations/nexus-setup.sh
+    - User data (Copy the following user data): https://github.com/jacodetunde/DevOps-installations/blob/main/nexus-setup.sh
     - Launch Instance
 
 5) ######  S3 and Dynamodb
