@@ -5,7 +5,7 @@
     Fork this GitHub Repository by using the existing repo (https://github.com/jacodetunde/Complete-Microservice-App-CICD-Pipeline.git)     
     - Go to GitHub (github.com)
     - Login to your GitHub Account
-    - **Fork repository "jjtech-ci-cd-pipeline-project-k8s" (https://github.com/jacodetunde/Complete-Microservice-App-CICD-Pipeline.git)**
+    - **Fork repository "Complete-Microservice-App-CICD-Pipeline" (https://github.com/jacodetunde/Complete-Microservice-App-CICD-Pipeline.git)**
     - Clone your newly created repo to your local
 
 
