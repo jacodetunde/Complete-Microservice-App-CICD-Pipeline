@@ -1,4 +1,4 @@
-# Jenkins Complete CI/CD Pipeline Environment Setup 
+# Microservice App Complete CI/CD Pipeline Environment Setup 
 
 ## CICD Applications setup
 1) ###### GitHub setup
