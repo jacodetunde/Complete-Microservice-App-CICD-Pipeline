@@ -1,4 +1,6 @@
 # Microservice App Complete CI/CD Pipeline Setup 
+## Objective
+The project aim to showcase the seamless automation of a CI/CD pipeline for deploying microservices applications, demonstrating best practices in efficient and reliable software delivery
 
 ## CICD Applications setup
 1) ###### GitHub setup
