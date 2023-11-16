@@ -77,7 +77,7 @@ The project aims to showcase the seamless automation of a CI/CD pipeline for dep
     - Repositories
         - Repository URL: FILL YOUR OWN REPO URL (that we created by importing in the first step)
         - Branch Specifier (blank for 'any'): */main
-        - Script Path: spring-boot-app/Jenkinsfile
+        - Script Path: spring-boot-app/JenkinsFile
     - Save
 
 4)  #### Global tools configuration:
